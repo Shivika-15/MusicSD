@@ -80,7 +80,7 @@
         android:layout_marginRight="164dp"
         android:layout_marginBottom="153dp"
         android:text="Sign Up"
-        android:textColor="@android:color/background_light"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

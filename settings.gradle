@@ -1,0 +1,2 @@
+rootProject.name='MusicSD'
+include ':app'

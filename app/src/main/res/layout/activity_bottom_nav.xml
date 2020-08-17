@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".bottomNav">
 
+
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/but_nav"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_alignParentBottom="true"
@@ -15,4 +17,13 @@
         android:padding="8dp"
 
         app:cnb_menuResource="@menu/menuhomebutton" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </FrameLayout>
 </RelativeLayout>

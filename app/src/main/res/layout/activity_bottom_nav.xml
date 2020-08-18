@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".bottomNav">
@@ -10,13 +11,47 @@
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:id="@+id/but_nav"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/rounded"
+
         android:elevation="16dp"
         android:padding="8dp"
 
         app:cnb_menuResource="@menu/menuhomebutton" />
+
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_above="@+id/but_nav"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="bottom"
+        app:umanoPanelHeight="68dp"
+        app:umanoShadowHeight="4dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Main Content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="The Awesome Sliding Up Panel"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
 
     <FrameLayout
         android:id="@+id/fragment_container"

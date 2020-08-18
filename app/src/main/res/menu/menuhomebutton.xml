@@ -26,16 +26,16 @@
         android:icon="@drawable/search"
         android:title="Search"
         app:cnb_backgroundColor="#25FFEA00"
-        app:cnb_iconColor="#FFD600"
-        app:cnb_textColor="#FFD600"
+        app:cnb_iconColor="#F39D09"
+        app:cnb_textColor="#F39D09"
 
         />
     <item
         android:id="@+id/profile"
         android:title="Profile"
         android:icon="@drawable/user"
-        app:cnb_iconColor="#5BFB04"
-        app:cnb_textColor="#5BFB04"
+        app:cnb_iconColor="#1DE326"
+        app:cnb_textColor="#1DE326"
         app:cnb_backgroundColor="#2876FF03"
 
         />

@@ -7,36 +7,36 @@
         android:id="@+id/home"
         android:icon="@drawable/home"
         android:title="Home"
-        app:cnb_backgroundColor="#ff785b"
-        app:cnb_iconColor="#FFFFFF"
-        app:cnb_textColor="#FFFFFF"
+        app:cnb_backgroundColor="#57FF785B"
+        app:cnb_iconColor="#FF785B"
+        app:cnb_textColor="#FF785B"
 
         />
     <item
         android:id="@+id/liked"
         android:icon="@drawable/heart"
         android:title="Liked"
-        app:cnb_backgroundColor="#00E5FF"
-        app:cnb_iconColor="#FFFFFF"
-        app:cnb_textColor="#FFFFFF"
+        app:cnb_backgroundColor="#1D00E5FF"
+        app:cnb_iconColor="#38AFFF"
+        app:cnb_textColor="#38AFFF"
 
         />
     <item
         android:id="@+id/search"
         android:icon="@drawable/search"
         android:title="Search"
-        app:cnb_backgroundColor="#FFEA00"
-        app:cnb_iconColor="#FFFFFF"
-        app:cnb_textColor="#FFFFFF"
+        app:cnb_backgroundColor="#25FFEA00"
+        app:cnb_iconColor="#F39D09"
+        app:cnb_textColor="#F39D09"
 
         />
     <item
         android:id="@+id/profile"
         android:title="Profile"
         android:icon="@drawable/user"
-        app:cnb_iconColor="#FFFFFF"
-        app:cnb_textColor="#FFFFFF"
-        app:cnb_backgroundColor="#76FF03"
+        app:cnb_iconColor="#1DE326"
+        app:cnb_textColor="#1DE326"
+        app:cnb_backgroundColor="#2876FF03"
 
         />
 </menu>

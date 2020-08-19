@@ -2,11 +2,15 @@ package com.example.musicsd;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.ismaeldivita.chipnavigation.ChipNavigationBar;
+import com.sothree.slidinguppanel.SlidingUpPanelLayout;
+
+
 
 public class bottomNav extends AppCompatActivity {
     SlidingUpPanelLayout supl;
@@ -70,7 +74,7 @@ public class bottomNav extends AppCompatActivity {
             @Override
             public void onPanelStateChanged(View panel, SlidingUpPanelLayout.PanelState previousState, SlidingUpPanelLayout.PanelState newState) {
 
-                
+
 
             }
         });

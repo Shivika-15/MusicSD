@@ -23,7 +23,7 @@ public class bottomNav extends AppCompatActivity {
         setContentView(R.layout.activity_bottom_nav);
 
 
-        ChipNavigationBar bottomNav;
+        final ChipNavigationBar bottomNav;
         bottomNav = findViewById(R.id.but_nav);
         supl=findViewById(R.id.sliding_layout);
         if (savedInstanceState == null) {
@@ -68,11 +68,14 @@ public class bottomNav extends AppCompatActivity {
         supl.addPanelSlideListener(new SlidingUpPanelLayout.PanelSlideListener() {
             @Override
             public void onPanelSlide(View panel, float slideOffset) {
-                
+
+
             }
 
             @Override
             public void onPanelStateChanged(View panel, SlidingUpPanelLayout.PanelState previousState, SlidingUpPanelLayout.PanelState newState) {
+
+                
 
             }
         });

@@ -29,7 +29,7 @@
         android:layout_above="@+id/but_nav"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="1dp"
         android:gravity="bottom"
         app:umanoPanelHeight="68dp"
         app:umanoShadowHeight="4dp">

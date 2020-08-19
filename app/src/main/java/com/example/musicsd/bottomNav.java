@@ -14,6 +14,7 @@ import com.ismaeldivita.chipnavigation.ChipNavigationBar;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
 public class bottomNav extends AppCompatActivity {
+    SlidingUpPanelLayout supl;
 
 
     @Override
@@ -24,6 +25,7 @@ public class bottomNav extends AppCompatActivity {
 
         ChipNavigationBar bottomNav;
         bottomNav = findViewById(R.id.but_nav);
+        supl=findViewById(R.id.sliding_layout);
         if (savedInstanceState == null) {
             bottomNav.setItemSelected(R.id.home, true);
             HomeFragment homeFragment = new HomeFragment();
@@ -62,6 +64,19 @@ public class bottomNav extends AppCompatActivity {
 
             }
         });
+
+        supl.addPanelSlideListener(new SlidingUpPanelLayout.PanelSlideListener() {
+            @Override
+            public void onPanelSlide(View panel, float slideOffset) {
+                
+            }
+
+            @Override
+            public void onPanelStateChanged(View panel, SlidingUpPanelLayout.PanelState previousState, SlidingUpPanelLayout.PanelState newState) {
+
+            }
+        });
+
 
 
     }
